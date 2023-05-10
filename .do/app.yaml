@@ -1,0 +1,8 @@
+name: tokenizer
+services:
+  - environment_slug: python
+    github:
+      branch: main
+      deploy_on_push: true
+      repo: adeeeg/tokenizer
+    name: tokenizer
